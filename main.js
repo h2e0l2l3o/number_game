@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   let randomNumber = 0;
-  let score = 0;
+  let score = 19;
 
   const numberDisplay = document.getElementById("numberDisplay");
   const startButton = document.getElementById("startButton");
@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let option = Math.floor(1 + Math.random() * 5); //1~5사이 숫자
     if (Guess == randomNumber) {
       if (score == 19) {
-        scoreDisplay.textContent = `✨✨우와! 😎마지막 문제😎까지 풀어내다니!!🎉 🤩🎈🎉축하합니다!!🎈🎉🤩 
-        (다시 게임을 진행하고 싶으시면 새로고침을 눌러주세요!)`;
+        scoreDisplay.innerHTML = `✨✨우와! 😎마지막 문제😎까지 풀어내다니!!🎉 🤩🎈🎉축하합니다!!🎈🎉🤩 
+        <br>(다시 게임을 진행하고 싶으시면 새로고침을 눌러주세요!)`;
         userInput.value = "";
         inputArea.style.display = "none";
       } else {

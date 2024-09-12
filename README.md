@@ -1,4 +1,4 @@
-# 숫자 게임
+# [숫자 게임](https://practicenumbergame.netlify.app/)
 
 - 랜덤으로 생성되는 숫자를 사용자가 기억하는 게임.
   ![숫자게임](image-1.png)

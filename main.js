@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   let randomNumber = 0;
-  let score = 19;
+  let score = 0;
 
   const numberDisplay = document.getElementById("numberDisplay");
   const startButton = document.getElementById("startButton");
